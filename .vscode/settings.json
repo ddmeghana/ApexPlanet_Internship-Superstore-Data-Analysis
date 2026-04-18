@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:Superstore-Data-Analysis}/database/superstore.db",
+            "name": "superstore"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
