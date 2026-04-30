@@ -1,90 +1,16 @@
-# 📊 Data Immersion & Wrangling – Superstore Sales Dataset
+# 📊 Data Analysis Internship – Superstore Sales Dataset
 
-## 📌 Internship Task 1 – Data Analytics
+## 📌 Internship Task 1 – Data Immersion & Wrangling 
 
-This repository contains the work completed for **Task 1: Data Immersion & Wrangling** as part of my Data Analytics Internship.
+This repository contains the work completed for all tasks as part of my Data Analytics Internship.
 
----
+This project is part of my Data Analytics Internship at ApexPlanet and focuses on Data Immersion & Wrangling using the Superstore Sales dataset. The dataset, consisting of transactional sales, customer, and product information, was explored to understand its structure and identify data quality issues such as missing values, duplicates, and incorrect data types. Using Python, Pandas, and Jupyter Notebook, the data was cleaned and transformed by standardizing column names, converting date fields, handling inconsistencies, and performing feature engineering by creating variables such as Year, Month, and Profit Margin. The final output is a structured, analysis-ready dataset (cleaned_superstore.csv), highlighting the importance of data preprocessing in analytics workflows.
 
-## 📁 Dataset Used
-
-* **Superstore Sales Dataset (Kaggle)**
-* The dataset contains transactional sales data including customer details, product categories, sales, profit, and regional information.
 
 ---
+## 📌 Internship Task 2 – EDA & BI
 
-## 🎯 Objective
-
-The objective of this task is to:
-
-* Understand the dataset structure
-* Identify data quality issues
-* Clean and transform the data
-* Prepare an analysis-ready dataset
-
----
-
-## 🛠️ Tools & Technologies
-
-* Python 
-* Pandas
-* NumPy
-* Jupyter Notebook (VS Code)
-
----
-
-## 🔍 Steps Performed
-
-### 1. Data Access & Familiarization
-
-* Loaded dataset using Pandas
-* Explored dataset structure using `.head()`, `.info()`, `.describe()`
-* Understood each column and created a **Data Dictionary**
-
----
-
-### 2. Data Quality Assessment
-
-Identified the following issues:
-
-* Missing values in certain columns
-* Duplicate records
-* Incorrect data types (Date columns stored as strings)
-* Inconsistent column naming (spaces in column names)
-
----
-
-### 3. Data Cleaning & Transformation
-
-Performed the following operations:
-
-* Converted date columns to datetime format
-* Removed duplicate rows
-* Handled missing values
-* Standardized column names (removed spaces, used underscores)
-* Created new features:
-
-  * `Year`
-  * `Month`
-  * `Profit_Margin`
-
----
-
-### 4. Final Output
-
-* Generated a cleaned dataset ready for analysis
-* Saved as: `cleaned_superstore.csv`
-
----
-
-## 📊 Key Learnings
-
-* Importance of data cleaning before analysis
-* Handling missing values and duplicates
-* Data type conversions
-* Feature engineering for better insights
-
----
+Building on the cleaned dataset, Exploratory Data Analysis (EDA) and SQL-based business insights were performed to uncover patterns, trends, and relationships within the data. Using Python visualizations and SQLite queries, key insights were derived such as sales distribution patterns, the impact of discounts on profitability, regional and category performance, and customer segment behavior. A dashboard mockup was also designed to present key performance indicators (KPIs) including total sales, profit, and trends in a structured format, demonstrating how data-driven insights can support strategic decision-making.
 
 
 ## 🙌 Acknowledgment
